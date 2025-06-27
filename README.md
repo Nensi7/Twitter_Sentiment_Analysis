@@ -9,9 +9,9 @@ A modular Python pipeline for **Twitter sentiment analysis**, combining data scr
 ## 🚀 Features
 
 - **Trimmed Sentiment140 Subset** – Sampled ~5,000 rows from the 1.6 million tweet dataset for faster development.
-- **Monthly Tweet Scraping** – Collected ~1,000 English tweets per month in 2024 using `snscrape`, no Twitter API needed :contentReference[oaicite:0]{index=0}.
+- **Monthly Tweet Scraping** – Collected ~1,000 English tweets per month in 2024 using `snscrape`, no Twitter API needed.
 - **Dual Sentiment Scoring**:
-  - **VADER** for social media text, handling informal language and punctuation :contentReference[oaicite:1]{index=1}.
+  - **VADER** for social media text, handling informal language and punctuation.
   - **TextBlob** for longer review text.
 - **Monthly Aggregation** – Outputs CSV with sentiment counts and percentages for each month.
 - **BI-Ready Output** – Compatible with Power BI, Plotly, and Streamlit dashboards.
